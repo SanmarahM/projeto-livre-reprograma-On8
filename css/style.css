@@ -1,0 +1,276 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.corpo {
+  background: #cfddec;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+  
+a:hover {
+  font-style: italic;
+}
+   
+button {
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}
+
+  /* CONTEÚDO */
+  /*  navegação - menu */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 3rem;
+  margin: 1rem;
+  margin-left: 9rem;;
+}
+.navigation-bar {
+  display: flex;
+  padding: 1rem;
+  margin-right: 5rem;
+  color: #3aaaaa;
+  font-weight: bolder;
+  font-stretch: condensed;
+}
+.menu--options {
+  margin-right: 2rem;
+}
+  
+  /* sidebar */
+  
+.container--menu--midias {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top right, #4fc0c5, #3aaaaa, #4fc0c5, #3aaaaa);
+  left: 0;
+  height: 100%;
+  top: 0;
+  overflow-x: hidden;
+  z-index: 20;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.menu--midias {
+  margin:0;
+  padding: 0;
+}
+.icon--socialmedia {
+  margin-top: 1rem;
+  height: 2.2rem;
+}
+
+/* HOME */ 
+/* Informação principal*/
+
+.main--text {
+  font-size: 65px;
+}
+.full--text {
+  font-size: 35px;
+  line-height: 40px;
+}
+.text--content {
+  width: 30rem;
+  color: #737577;
+}
+.button--info {
+  color: white;
+  width: 7rem;
+  font-weight: bolder;
+  height: 3rem;
+  margin-top: 2rem;
+  border-radius: 5%;
+  border: none;
+  background-color: #3aaaaa;
+}
+.img-volunteers {
+  width: 40rem;
+}
+.main-content {
+  display: inline-flex;
+  align-items: center;
+  padding: 5rem;
+  padding-left: 9rem;
+}
+.countdown--title {
+  text-align: center;
+  color: #828787;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+.countdown--sub {
+  display: inline-block;
+  font-size: 2em;
+  font-weight: bolder;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  color: #3aaaaa;
+  background-color: rgba(255, 255, 255, 0.589);
+  border-radius: 15%;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.message {
+  font-size: 4rem;
+  color: #3aaaaa;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#content {
+  display: none;
+  padding: 1rem;
+}
+
+/* ABOUT */
+
+.section-title {
+  text-align: center;
+  color: #737577;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 5rem;
+}
+.texto--sobre {
+  font-size: 21px;
+  font-weight: lighter;
+  width: 40rem;
+  color: #737577;
+  margin: 2rem;
+  margin-left: 23.5rem;
+}
+.quote-content {
+  margin-left: 23.5rem;
+  margin-top: 10rem;
+}
+.quote {
+  width: 40rem;
+  text-align: center;
+  color: #3aaaaa;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 35px;
+}
+.quote--reference {
+  width: 40rem;
+  text-align: center;
+  color: #3aaaaa;
+  font-weight: bold;
+}
+
+/* VOLUNTEER */
+
+.formulario {
+  background-color: #e4efef; 
+  margin-top: 2rem;
+  padding: 2rem;
+}
+.formulario--div {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.rotulo {
+  color: #4fc0c5;
+  font-style: italic;
+  padding: 0.3rem;
+}
+.input {
+  padding: 0.7rem;
+  width: 25rem;
+  display: flex;
+}
+.formulario--button {
+  margin: 3rem;
+  display: block;
+  text-align: center;
+}
+.button--submit {
+  border-color: #4fc0c5;
+  background-color: white;
+  padding: 0.5rem;
+  color: #737577;
+}
+.confirmation-message {
+  background-color: #e4efef;
+  display: block;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+.confirm--text {
+  color: #3aaaaa;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+}
+.check--image {
+  opacity: 30%;
+  margin-left: 34rem;
+}
+
+/* GALERY, DONATE, MORE & THE CREATOR */
+
+.notice-content {
+  margin-top: 5rem;
+}
+.notice {
+  color: #828787;
+  font-weight: lighter;
+  text-align: center;
+}
+.plant--image {
+  margin-left: 37.5rem;
+  height: 10rem;
+  opacity: 30%;
+}
+.creator--image {
+  margin-left: 34.5rem;
+  margin-right: 34.5rem;
+  border-radius: 50%;
+  height: 15rem;
+}
+
+/* FOOTER */
+
+.lineart--image {
+  padding-top: 15rem;
+  width: 100%;
+  opacity: 70%;
+  display: flex;
+}
+.text--footer {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-size: 12px;
+  background-color: #666666;
+  padding: 0.3rem;
+}
